@@ -1,0 +1,80 @@
+.appli {
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+h4, h3 {
+	border: 1px grey solid;
+	color: grey;
+	background-color: rgb(237,232,232);
+}
+h3 {
+	text-align: justify;
+}
+/** {
+	outline: 1px solid red;
+}*/
+.recherche {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+.barre {
+	margin: 0;
+	width: 300px;
+
+
+}
+.bouton {
+	display: flex ;
+	flex-direction: row;
+	justify-content:center;
+}
+.France{
+	display:flex;
+	flex-direction: row;
+	justify-content : flex-start;
+	background-color: rgb(237,232,232)
+	align-content : flex-end;
+}
+.bas {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(237,232,232);
+	align-content: : flex-end;
+}
+.gauche {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: rgb(237,232,232);
+	align-content:  flex-end;
+}
+.droite {
+	display : flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: rgb(237,232,232);
+	align-content: flex-end;
+}
+footer{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top: 0px;
+	height:50px;
+}
+
+* {
+	font-family: "Verdana";
+}
